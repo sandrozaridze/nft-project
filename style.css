@@ -1,0 +1,238 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: 0; 
+}
+
+
+body{
+    background: #0D192C;
+}
+
+
+
+
+
+.wrapper{
+    margin: auto;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background: #15263f;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding:24px;
+
+    
+    
+}
+
+.poto{
+    width:100%;
+    border-radius:8px;
+    
+}
+
+.equili{
+    height: 28px;
+width: 302px;
+border-radius: nullpx;
+font-family: Outfit;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+
+
+}
+
+.equili:hover{
+    color: #00FFF8;
+    cursor: pointer;
+
+}
+
+
+.vigacakaci{
+    height: 33px;
+width: 33px;
+border-radius: 0px;
+}
+
+
+
+.text{
+    height: 52px;
+width: 302px;
+border-radius: nullpx;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #8BACD9;
+margin-top: 16px;
+margin-left: 24px;
+}
+
+
+
+.equil{
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #FFFFFF;
+}
+
+.potodaragaca{
+    display: flex;
+    justify-content: row;
+    margin-left: 24px;
+}
+
+.rombispoto{
+ width: 11px;
+ width: 12.43px;
+}
+
+.mwvane{
+    
+    height: 20px;
+    left: 18.7%;
+    right: 1.07%;
+    top: calc(50% - 20px/2);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+
+.days{
+    height: 20px;
+width: 73px;
+left: 227px;
+top: 0px;
+border-radius: nullpx;
+color: #8BACD9;
+}
+
+.potodasamidge{
+    display: flex;
+    flex-direction: row;
+    margin-right: 26px;
+}
+
+
+.potoebi{
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.creat{
+    height: 20px;
+width: 81px;
+border-radius: nullpx;
+color: #8BACD9;
+}
+
+
+.wyvern{
+    height: 20px;
+width: 93px;
+border-radius: nullpx;
+color: #FFFFFF;
+}
+
+
+.wyvern:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+
+.creatjules{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24px;
+   
+
+}
+
+.vigacakaci{
+    height: 33px;
+width: 33px;
+left: 24px;
+top: 531px;
+border-radius: 0px;
+border-color: #FFFFFF;
+margin-top: 16px;
+
+
+}
+
+
+.oritext{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-left: 16px;
+margin-top: 22px; 
+}
+
+
+.xazi{
+    height: 1px;
+width: 302px;
+border-radius: 0px;
+background: #2E405A;
+margin-top: 24px;
+margin-left: 24px;
+
+}
+
+
+.equilibrium{
+    width: 302px;
+    height: 302px;  
+    border-radius: 8px;
+    position:relative;
+    margin-left: 24px;
+  
+}
+
+  
+
+
+.eye{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:none;
+    z-index:14;
+    cursor:pointer;
+  
+    
+}
+
+
+.equilibrium:hover .eye{
+    display:block;
+}
+
+
+.equilibrium:after {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:#00FFF8;
+    border-radius:8px;
+    opacity: 0;
+    
+  }
+  
+  .equilibrium:hover:after{
+    opacity:0.5;
+    cursor:pointer;
+  }
